@@ -6,10 +6,10 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = () => {
-  document.querySelector("#the-excuse").innerHTML = generateExcuse();
+  document.querySelector("#the-domain").innerHTML = generateDomain();
 };
 
-const generateExcuse = () => {
+const generateDomain = () => {
   const excuseObject = {
     pronoun: ["save", "our"],
     adj: ["great", "school"],
